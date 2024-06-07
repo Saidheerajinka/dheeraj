@@ -1,0 +1,5 @@
+Given an array of integers nums, half of the integers in nums are odd, and the other half are even.
+
+def array_partition(nums):
+    nums.sort()
+    return sum(nums[::2])
